@@ -23,19 +23,19 @@ python3 check-binaries.py suid_list.txt
 Output example:
 
 python3 check_binaries.py test.txt\
-[*] Checking 14 binaries against GTFOBins...\
+[*] Checking 14 binaries against GTFOBins...\  
 
-[ ] chfn -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/chfn/)\
-[ ] chsh -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/chsh/)\
-[ ] dbus-daemon-launch-helper -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/dbus-daemon-launch-helper/)\
-[ ] dmcrypt-get-device -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/dmcrypt-get-device/)\
-[+] find -> SUID FOUND (https://gtfobins.github.io/gtfobins/find/)\
-[ ] fusermount -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/fusermount/)\
-[ ] gpasswd -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/gpasswd/)\
-[-] mount -> No SUID entry, found: Sudo (https://gtfobins.github.io/gtfobins/mount/)\
-[ ] newgrp -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/newgrp/)\
-[ ] passwd -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/passwd/)\
-[ ] ssh-keysign -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/ssh-keysign/)\
-[-] su -> No SUID entry, found: Sudo (https://gtfobins.github.io/gtfobins/su/)\
-[-] sudo -> No SUID entry, found: Sudo (https://gtfobins.github.io/gtfobins/sudo/)\
-[ ] umount -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/umount/)\
+[ ] chfn -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/chfn/)\  
+[ ] chsh -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/chsh/)\  
+[ ] dbus-daemon-launch-helper -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/dbus-daemon-launch-helper/)\  
+[ ] dmcrypt-get-device -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/dmcrypt-get-device/)\  
+[+] find -> SUID FOUND (https://gtfobins.github.io/gtfobins/find/)\  
+[ ] fusermount -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/fusermount/)\  
+[ ] gpasswd -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/gpasswd/)\  
+[-] mount -> No SUID entry, found: Sudo (https://gtfobins.github.io/gtfobins/mount/)\  
+[ ] newgrp -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/newgrp/)\  
+[ ] passwd -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/passwd/)\  
+[ ] ssh-keysign -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/ssh-keysign/)\  
+[-] su -> No SUID entry, found: Sudo (https://gtfobins.github.io/gtfobins/su/)\  
+[-] sudo -> No SUID entry, found: Sudo (https://gtfobins.github.io/gtfobins/sudo/)\  
+[ ] umount -> Not found on GTFOBins (https://gtfobins.github.io/gtfobins/umount/)\  
