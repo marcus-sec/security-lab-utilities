@@ -10,7 +10,7 @@ note: this is already on kali natively so you can skip this step if you're on an
 
 Generate your input file on the target machine (example for finding root owned binaries with SUID):
 
-find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null > binaries.txt
+find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
 
 Copy / paste the output of that command to a file on your attacking machine
 
